@@ -1071,7 +1071,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc000000', e
 ==============================*/
 #tf-works {
   padding: 80px 0;
-  background: #f5f7fa;
+  /*background: #f5f7fa;*/
+  background: #010133;
 }
 .categories {
   padding: 40px 0;
@@ -2195,11 +2196,14 @@ div.cell {
     display: flex;
 }
 
-.flex-child {
+.box-left {
     flex: 1;
-    border: 2px solid yellow;
+	border: 2px solid yellow;
+	height: 200px;
+  width: 50%;
+  background-color: powderblue;
 }  
 
-.flex-child:first-child {
+.box-right {
     margin-right: 20px;
 } 
