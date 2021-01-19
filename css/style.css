@@ -2131,7 +2131,7 @@ div.cell {
   }
 }
 /* button flip */
-body {
+/*body {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -2139,7 +2139,7 @@ body {
 	background: #1e1e24;
 	align-items: center;
 	justify-content: center;
-  }
+  }*/
   
   .btn-flip {
 	opacity: 1;
@@ -2189,3 +2189,17 @@ body {
 	content: attr(data-front);
 	transform: translateY(0) rotateX(0);
   }
+
+  /*Flex Box */
+  .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 
