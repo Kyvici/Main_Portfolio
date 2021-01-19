@@ -2192,16 +2192,13 @@ div.cell {
   }
 
   /*Flex Box */
-  .flex-container {
+.flex-container {
     display: flex;
 }
 
 .box-left {
     flex: 1;
 	border: 2px solid yellow;
-	height: 200px;
-  width: 50%;
-  background-color: powderblue;
 }  
 
 .box-right {
